@@ -4,12 +4,16 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0'
 # Use Puma as the app server
+
 gem 'puma', '3.4.0'
 # Use SCSS for stylesheets
+
 gem 'sass-rails', '5.0.6'
 # Use Uglifier as compressor for JavaScript assets
+
 gem 'uglifier', '3.0.0 '
 # Use CoffeeScript for .coffee assets and views
+
 gem 'coffee-rails', '4.2.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -27,8 +31,12 @@ gem 'jbuilder', '2.5.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-  # get bootstrap library for frontend ui layout
-  gem 'bootstrap-sass' , '3.3.7'
+
+# get bootstrap library for frontend ui layout
+gem 'bootstrap-sass' , '3.3.7'
+  
+#Font Awesome gem  
+gem 'font-awesome-sass', '4.6.2'
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
