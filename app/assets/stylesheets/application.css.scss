@@ -19,12 +19,15 @@
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
+//navbar gradient
 .navbar, .home-callout {
-  background: #4AC29A;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #457fca;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 
 }
@@ -39,20 +42,12 @@ h1, h2, h3 {
   padding-bottom: 100px;
 }
 
-.navbar-default .navbar-brand:hover{
+//navbar styles
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a{
   color: white;
-  opacity: .75;
-}
-
-.navbar-default .navbar-nav > li > a:hover{
-  color: white;
-  opacity: .75;
-}
-
-.navbar-default .navbar-brand{
-  color: white;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: white;
+  &:hover{
+    color: white;
+    opacity: .75;
+  }
 }
