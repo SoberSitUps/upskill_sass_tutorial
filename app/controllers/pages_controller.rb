@@ -3,7 +3,5 @@ class PagesController < ApplicationController
   end
   def about
   end
-  def heroes
-  end
 end
  
