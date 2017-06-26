@@ -45,6 +45,10 @@ h1, h2, h3 {
   padding-bottom: 100px;
 }
 
+.navbar-brand{
+  font-family: 'Open Sans' , sans-serif;
+  font-weight: 800;
+}
 //navbar styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a{
@@ -52,5 +56,16 @@ h1, h2, h3 {
   &:hover{
     color: white;
     opacity: .75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+  border: 2px solid white;
+  &:hover, &:focus{
+    background-color:#5691c8;
   }
 }
