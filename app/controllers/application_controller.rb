@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  
+
+ #whitelist form fields to process if coming from devise signup form
   before_action :configure_permitted_parameters , if: :devise_controller?
   
   protected

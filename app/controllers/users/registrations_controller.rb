@@ -1,4 +1,7 @@
 class Users::RegistrationsController < Devise::RegistrationsController
+    #Extend default Devise gem behavior. Pro users (plan id-2) are saved with 
+    #Stripe subscription function
+    #Otherwise use normal Devise signup
     def create
       super do |resource|
         if params[:plan]
